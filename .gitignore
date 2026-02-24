@@ -1,24 +1,39 @@
-*.env
-*.env.local
-*.env.*.local
-*.key
-*.pem
-.DS_Store
+# Node modules and dependencies
 node_modules/
-.git/
-.next/
-dist/
-build/
-coverage/
-*.log
-.env.kanban
-.env.*
-secrets.json
-config.secret.json
-*.backup
+package-lock.json
+yarn.lock
+
+# OS and editor artifacts
+.DS_Store
+.vscode/
+.idea/
 *.swp
 *.swo
 *~
-.vscode/settings.json
-.idea/
-*.iml
+
+# Logs
+*.log
+logs/
+
+# Credentials and secrets (restore from password manager)
+openclaw.json.actual
+credentials/*.actual.json
+
+# Large directories (restore separately if needed)
+workspace/tactlink/
+workspace/kanban-dashboard/
+workspace/agent-monitor/
+workspace/.cache/
+
+# Temporary and cache directories
+.cache/
+dist/
+build/
+
+# Generated files
+*.tmp
+*.pid
+
+# Delivery queue and system data
+delivery-queue/
+media/

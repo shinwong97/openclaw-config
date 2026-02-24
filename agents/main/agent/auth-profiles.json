@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "profiles": {
+    "anthropic:default": {
+      "type": "api_key",
+      "provider": "anthropic",
+      "key": "[ADD_FROM_PASSWORD_MANAGER: Anthropic API Key]"
+    }
+  },
+  "lastGood": {
+    "anthropic": "anthropic:default"
+  },
+  "usageStats": {}
+}

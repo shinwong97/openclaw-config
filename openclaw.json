@@ -1,0 +1,14 @@
+{
+  "agent": {
+    "name": "main",
+    "model": "anthropic/claude-haiku-4-5"
+  },
+  "gateway": {
+    "url": "[ADD_FROM_PASSWORD_MANAGER: Gateway URL]",
+    "token": "[ADD_FROM_PASSWORD_MANAGER: Gateway Token]"
+  },
+  "telegram": {
+    "botToken": "[ADD_FROM_PASSWORD_MANAGER: Telegram Bot Token]",
+    "allowFrom": "[ADD_FROM_PASSWORD_MANAGER: Allowed Chat IDs]"
+  }
+}
